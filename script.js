@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perbedaan TKDN dan Istilah Kandungan Lokal Lainnya | AD SNI Consultant</title>
+<meta name="description" content="Meluruskan kerancuan istilah TKDN dengan konsep kandungan lokal yang sering tertukar dalam praktik pengadaan.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://adsniconsultant.com/artikel/tkdn-vs-kandungan-lokal.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Perbedaan TKDN dan Istilah Kandungan Lokal Lainnya",
+  "description": "Meluruskan kerancuan istilah TKDN dengan konsep kandungan lokal yang sering tertukar dalam praktik pengadaan.",
+  "author": {"@type":"Organization","name":"AD SNI Consultant"},
+  "publisher": {"@type":"Organization","name":"AD SNI Consultant"}
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="../index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><rect x="6" y="6" width="88" height="88" fill="none" stroke="#0B2A4A" stroke-width="2.5"/><path d="M28 52 L44 68 L74 32" fill="none" stroke="#3D6C93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><span class="brand-name">AD SNI CONSULTANT</span><span class="brand-sub">Perizinan &amp; Sertifikasi Perusahaan</span></span>
+    </a>
+    <nav class="links">
+      <a href="../index.html">Beranda</a>
+      <a href="../layanan.html">Layanan</a>
+      <a href="../tentang-kami.html">Tentang Kami</a>
+      <a href="../blog.html" class="active">Artikel</a>
+      <a href="../kontak.html">Kontak</a>
+      <a href="https://wa.me/6281119469678" class="btn btn-wa" target="_blank" rel="noopener">WhatsApp Kami</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Buka menu" id="menuToggle">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0B2A4A" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="article-header">
+    <div class="wrap" style="max-width:740px; margin:0 auto;">
+      <p class="breadcrumb"><a href="../index.html">Beranda</a> / <a href="../blog.html">Artikel</a> / TKDN</p>
+      <h1>Perbedaan TKDN dan Istilah Kandungan Lokal Lainnya</h1>
+      <div class="article-meta"><span>TKDN</span><span>5 menit baca</span></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <article class="article-body">
+<p>Di lapangan, istilah "TKDN" sering digunakan bergantian dengan istilah "kandungan lokal" atau "local content" secara umum. Meski berkaitan, kedua istilah ini tidak sepenuhnya identik, dan kerancuan ini bisa berdampak pada cara perusahaan menyiapkan dokumen serta strategi pengadaannya.</p>
+
+<h2>Apa Itu TKDN</h2>
+<p>TKDN (Tingkat Komponen Dalam Negeri) adalah besaran capaian nilai kandungan dalam negeri pada suatu barang, jasa, atau gabungan barang dan jasa, yang dihitung dan diverifikasi melalui metode resmi, kemudian dituangkan dalam bentuk sertifikat dengan nilai persentase tertentu. Sertifikat TKDN diterbitkan melalui mekanisme formal dan menjadi rujukan dalam pengadaan barang/jasa pemerintah serta BUMN.</p>
+
+<h2>Apa Itu "Kandungan Lokal" Secara Umum</h2>
+<p>Istilah kandungan lokal sering dipakai secara longgar untuk menggambarkan seberapa besar suatu produk menggunakan bahan baku, tenaga kerja, atau proses produksi dari dalam negeri — tanpa merujuk pada angka yang telah diverifikasi secara resmi. Klaim semacam ini bisa muncul dalam materi pemasaran perusahaan, namun tidak otomatis setara dengan nilai TKDN yang telah tersertifikasi.</p>
+
+<h2>Mengapa Perbedaan Ini Penting</h2>
+<ul>
+  <li>Untuk keperluan tender pemerintah atau BUMN, yang diakui adalah nilai TKDN bersertifikat, bukan klaim kandungan lokal yang belum diverifikasi.</li>
+  <li>Perusahaan yang hanya mengandalkan estimasi internal tanpa sertifikasi resmi berisiko gagal memenuhi syarat administratif saat mengikuti proses pengadaan.</li>
+  <li>Metode penghitungan TKDN mengikuti ketentuan resmi yang berbeda dari cara perusahaan biasanya menghitung porsi komponen lokal secara internal.</li>
+</ul>
+
+<h2>Kapan Perusahaan Perlu Sertifikat TKDN Resmi</h2>
+<p>Jika perusahaan Anda berencana mengikuti pengadaan barang/jasa pemerintah, proyek BUMN, atau proyek yang secara eksplisit mensyaratkan preferensi produk dalam negeri, sertifikat TKDN resmi menjadi dokumen yang perlu disiapkan — bukan sekadar estimasi kandungan lokal internal.</p>
+
+<div class="note">Nilai TKDN dan metodenya dapat diperbarui mengikuti ketentuan yang berlaku. Sebaiknya perusahaan memverifikasi metode penghitungan terbaru sebelum menyusun estimasi internal.</div>
+
+<h2>Ringkasan</h2>
+<p>TKDN adalah bentuk formal dan terverifikasi dari konsep kandungan lokal. Memahami perbedaan ini membantu tim procurement dan legal menghindari kesalahpahaman saat menyiapkan dokumen untuk tender atau pengadaan yang mensyaratkan nilai TKDN.</p>
+
+      <div class="article-cta">
+        <p>Butuh diskusi lebih spesifik untuk kasus perusahaan Anda?</p>
+        <a href="https://wa.me/6281119469678" class="btn btn-wa" target="_blank" rel="noopener">Konsultasi via WhatsApp</a>
+      </div>
+
+      <div class="related">
+        <h4>Baca Juga</h4>
+        <ul>
+          <li><a href="../layanan.html">Lihat seluruh layanan perizinan kami →</a></li>
+          <li><a href="../blog.html">Kembali ke daftar artikel →</a></li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="32" height="32" viewBox="0 0 100 100" aria-hidden="true"><rect x="6" y="6" width="88" height="88" fill="none" stroke="#9DBAD6" stroke-width="2.5"/><path d="M28 52 L44 68 L74 32" fill="none" stroke="#9DBAD6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span style="font-weight:800; color:#F4F6F8;">AD SNI CONSULTANT</span>
+        </div>
+        <p>Konsultan perizinan dan sertifikasi untuk perusahaan — mendampingi kepatuhan regulasi sejak 2015.</p>
+      </div>
+      <div><h4>Layanan</h4><ul><li><a href="../layanan.html#sni">Sertifikat SNI</a></li><li><a href="../layanan.html#bpom">Izin Edar BPOM</a></li><li><a href="../layanan.html#tkdn">TKDN</a></li><li><a href="../layanan.html#import-license">Import License</a></li></ul></div>
+      <div><h4>Perizinan</h4><ul><li><a href="../layanan.html#skk">SKK</a></li><li><a href="../layanan.html#sbu">SBU</a></li><li><a href="../layanan.html#rkp-rpl">RKP-RPL</a></li><li><a href="../layanan.html#lainnya">Layanan Lainnya</a></li></ul></div>
+      <div><h4>Perusahaan</h4><ul><li><a href="../tentang-kami.html">Tentang Kami</a></li><li><a href="../blog.html">Artikel</a></li><li><a href="../kontak.html">Kontak</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 AD SNI Consultant. Seluruh hak cipta dilindungi.</span>
+      <span>Cikarang Barat, Jawa Barat, Indonesia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>

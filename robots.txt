@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.adsniconsultant.co.id/sitemap.xml
+Sitemap: https://adsniconsultant.com/sitemap.xml
