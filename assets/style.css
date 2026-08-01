@@ -1,9 +1,9 @@
 :root{
-  --navy:#0B2A4A;
-  --navy-2:#123A63;
-  --navy-3:#1B4A79;
-  --steel:#3D6C93;
-  --steel-light:#EAF1F7;
+  --navy:#2F3F12;
+  --navy-2:#41551B;
+  --navy-3:#587424;
+  --steel:#5C7E1E;
+  --steel-light:#F1F5EA;
   --ink:#1C242E;
   --gray-700:#3D4750;
   --gray-600:#5B6572;
@@ -119,10 +119,10 @@ section{padding:84px 0;}
 .why-item p{font-size:13.5px;}
 .credential-card{background:var(--navy); color:var(--white); border-radius:var(--radius); padding:38px; }
 .credential-card .qline{font-size:1.15rem; line-height:1.5; margin-bottom:18px; font-weight:600;}
-.credential-card .qwho{font-family:var(--mono); font-size:11.5px; letter-spacing:.06em; color:#9DBAD6;}
+.credential-card .qwho{font-family:var(--mono); font-size:11.5px; letter-spacing:.06em; color:#C3D9A0;}
 .credential-list{margin-top:24px; padding-top:24px; border-top:1px solid rgba(255,255,255,.15); display:flex; flex-direction:column; gap:14px;}
 .credential-list .row{display:flex; justify-content:space-between; font-size:13.5px;}
-.credential-list .row .k{color:#9DBAD6;}
+.credential-list .row .k{color:#C3D9A0;}
 .credential-list .row .v{font-weight:700;}
 
 /* CTA band */
@@ -186,7 +186,7 @@ form.contact-form{display:flex; flex-direction:column; gap:16px;}
 footer{background:var(--navy); color:rgba(255,255,255,.72); padding:56px 0 26px;}
 .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px; padding-bottom:38px; border-bottom:1px solid rgba(255,255,255,.15);}
 .footer-brand{display:flex; gap:12px; align-items:center; margin-bottom:14px;}
-footer h4{font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#9DBAD6; margin-bottom:14px;}
+footer h4{font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#C3D9A0; margin-bottom:14px;}
 footer ul li{margin-bottom:9px; font-size:13.5px;}
 footer a:hover{color:var(--white);}
 footer p{font-size:13.5px; max-width:34ch; color:rgba(255,255,255,.55);}
@@ -218,3 +218,8 @@ footer p{font-size:13.5px; max-width:34ch; color:rgba(255,255,255,.55);}
   section{padding:56px 0;}
   .article-cta{flex-direction:column; align-items:flex-start;}
 }
+
+/* Logo image sizing */
+.brand-logo-img{height:38px; width:auto; display:block;}
+.footer-logo-mark{width:34px; height:34px; border-radius:7px; display:block; flex:none;}
+@media (max-width:920px){ .brand-logo-img{height:32px;} }
