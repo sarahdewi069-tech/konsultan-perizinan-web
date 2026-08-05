@@ -1,0 +1,17 @@
+{
+  "name": "AD SNI Consultant",
+  "short_name": "AD SNI",
+  "description": "Konsultan Perizinan & Sertifikasi Perusahaan - SNI, BPOM, TKDN, NPB, Import License, SKK, SBU, RKP-RPL",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2F3F12",
+  "lang": "id",
+  "icons": [
+    { "src": "/assets/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "maskable" }
+  ]
+}
