@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (pesan) lines.push(`需求详情：${pesan}`);
       if (fileNames) lines.push(`我将附上文件：${fileNames}`);
       lines.push(`邮箱：${email}`);
-      lines.push(`WhatsApp：${telepon}`);
+      lines.push(`联系电话：${telepon}`);
     } else {
       lines = [`Halo AD SNI Consultant, saya ${nama}${perusahaan ? ' dari ' + perusahaan : ''}.`];
       lines.push(`Saya ingin konsultasi mengenai layanan: ${layanan}.`);
@@ -151,8 +151,14 @@ document.addEventListener('DOMContentLoaded', () => {
       lines.push(`No. WhatsApp: ${telepon}`);
     }
 
-    const text = encodeURIComponent(lines.join('\n'));
-    window.open(`https://wa.me/6281119469678?text=${text}`, '_blank');
+    if (lang === 'zh') {
+      const subject = encodeURIComponent('网站咨询 - AD SNI Consultant');
+      const body = encodeURIComponent(lines.join('\n'));
+      window.location.href = `mailto:ademasnun70@gmail.com?subject=${subject}&body=${body}`;
+    } else {
+      const text = encodeURIComponent(lines.join('\n'));
+      window.open(`https://wa.me/6281119469678?text=${text}`, '_blank');
+    }
   });
 
   document.querySelectorAll('.faq-item').forEach(item => {

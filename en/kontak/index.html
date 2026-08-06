@@ -99,7 +99,7 @@
       <form class="contact-form" onsubmit="return false;">
         <div class="row2">
           <div class="field"><label for="nama">Full Name</label><input id="nama" name="nama" type="text" required></div>
-          <div class="field"><label for="perusahaan">Company Name</label><input id="perusahaan" name="perusahaan" type="text"></div>
+          <div class="field"><label for="perusahaan">Company Name</label><input id="perusahaan" name="perusahaan" type="text" required></div>
         </div>
         <div class="row2">
           <div class="field"><label for="email">Company Email</label><input id="email" name="email" type="email" required></div>
@@ -133,7 +133,7 @@
           <div class="upload-filelist" id="uploadFileList"></div>
         </div>
 
-        <div class="field"><label for="pesan">Details of Your Needs</label><textarea id="pesan" name="pesan" placeholder="Briefly describe your product/service and the type of license needed"></textarea></div>
+        <div class="field"><label for="pesan">Details of Your Needs</label><textarea id="pesan" name="pesan" required placeholder="Briefly describe your product/service and the type of license needed"></textarea></div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Consultation Request</button>
         <p style="font-size:12.5px; color:var(--gray-600);">This button will open WhatsApp with a pre-filled message. If you selected files above, please attach the same files manually once the WhatsApp chat opens.</p>
       </form>

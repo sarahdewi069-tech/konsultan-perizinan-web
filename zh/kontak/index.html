@@ -76,10 +76,6 @@
         <p class="lead" style="margin-top:12px;">我们的团队将回复并协助梳理与贵公司产品或经营活动相关的许可类别。</p>
         <div style="margin-top:28px;">
           <div class="contact-info-item">
-            <div class="lbl">WhatsApp／电话</div>
-            <div class="val"><a href="https://wa.me/6281119469678" target="_blank" rel="noopener">+62 811-9469-678</a></div>
-          </div>
-          <div class="contact-info-item">
             <div class="lbl">电子邮箱</div>
             <div class="val"><a href="mailto:ademasnun70@gmail.com">ademasnun70@gmail.com</a></div>
           </div>
@@ -100,11 +96,11 @@
       <form class="contact-form" onsubmit="return false;">
         <div class="row2">
           <div class="field"><label for="nama">姓名</label><input id="nama" name="nama" type="text" required></div>
-          <div class="field"><label for="perusahaan">公司名称</label><input id="perusahaan" name="perusahaan" type="text"></div>
+          <div class="field"><label for="perusahaan">公司名称</label><input id="perusahaan" name="perusahaan" type="text" required></div>
         </div>
         <div class="row2">
           <div class="field"><label for="email">公司邮箱</label><input id="email" name="email" type="email" required></div>
-          <div class="field"><label for="telepon">WhatsApp 号码</label><input id="telepon" name="telepon" type="tel" required></div>
+          <div class="field"><label for="telepon">联系电话</label><input id="telepon" name="telepon" type="tel" required></div>
         </div>
         <div class="field">
           <label for="layanan">所需服务</label>
@@ -134,9 +130,9 @@
           <div class="upload-filelist" id="uploadFileList"></div>
         </div>
 
-        <div class="field"><label for="pesan">需求详情</label><textarea id="pesan" name="pesan" placeholder="请简要描述您的产品/服务以及所需的许可类型"></textarea></div>
+        <div class="field"><label for="pesan">需求详情</label><textarea id="pesan" name="pesan" required placeholder="请简要描述您的产品/服务以及所需的许可类型"></textarea></div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">发送咨询请求</button>
-        <p style="font-size:12.5px; color:var(--gray-600);">点击此按钮将打开 WhatsApp，并自动填写消息内容。如果您在上方选择了文件，请在 WhatsApp 聊天打开后手动附上相同的文件。</p>
+        <p style="font-size:12.5px; color:var(--gray-600);">点击此按钮将打开您的邮件客户端，并自动填写咨询内容。如果您在上方选择了文件，请在邮件中手动附上相同的文件后再发送。</p>
       </form>
     </div>
   </section>
