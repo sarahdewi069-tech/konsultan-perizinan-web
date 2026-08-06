@@ -37,7 +37,7 @@
 <link rel="alternate" hreflang="x-default" href="https://adsniconsultant.com/kontak/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
@@ -109,13 +109,35 @@
         <div class="field">
           <label for="layanan">Layanan yang Dibutuhkan</label>
           <select id="layanan" name="layanan">
-            <option>Sertifikat SNI</option><option>Import License</option><option>TKDN</option><option>Izin Edar BPOM</option><option>NPB</option><option>RKP-RPL</option>
-            <option>Layanan Lainnya</option>
+            <option value="sni">Sertifikat SNI</option>
+            <option value="import-license">Import License</option>
+            <option value="tkdn">TKDN</option>
+            <option value="bpom">Izin Edar BPOM</option>
+            <option value="npb">NPB</option>
+            <option value="rkp-rpl">RKP-RPL</option>
+            <option value="lainnya">Layanan Lainnya</option>
           </select>
         </div>
+
+        <div class="doc-checklist" id="docChecklist">
+          <h4>Dokumen yang umumnya dibutuhkan untuk kategori ini</h4>
+          <ul id="docChecklistList"></ul>
+        </div>
+
+        <div class="field">
+          <label for="dokumen">Upload Dokumen Persyaratan (opsional)</label>
+          <label class="upload-drop" for="dokumen">
+            <span class="upload-ic">&#8593;</span>
+            <span class="upload-text">Klik untuk pilih file, atau drag &amp; drop di sini</span>
+            <span class="upload-hint">PDF, JPG, PNG, DOCX — maks. 5MB per file</span>
+          </label>
+          <input id="dokumen" name="dokumen" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" style="display:none;">
+          <div class="upload-filelist" id="uploadFileList"></div>
+        </div>
+
         <div class="field"><label for="pesan">Detail Kebutuhan</label><textarea id="pesan" name="pesan" placeholder="Jelaskan singkat produk/jasa dan jenis perizinan yang dibutuhkan"></textarea></div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Kirim Permintaan Konsultasi</button>
-        <p style="font-size:12.5px; color:var(--gray-600);">Tombol ini akan membuka WhatsApp dengan pesan yang sudah terisi otomatis sesuai data di atas.</p>
+        <p style="font-size:12.5px; color:var(--gray-600);">Tombol ini akan membuka WhatsApp dengan pesan yang sudah terisi otomatis. Jika Anda memilih file di atas, mohon lampirkan file yang sama secara manual saat chat WhatsApp terbuka.</p>
       </form>
     </div>
   </section>

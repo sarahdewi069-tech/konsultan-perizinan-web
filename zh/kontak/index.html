@@ -37,7 +37,7 @@
 <meta name="twitter:image" content="https://adsniconsultant.com/assets/og-image-zh.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
@@ -109,18 +109,34 @@
         <div class="field">
           <label for="layanan">所需服务</label>
           <select id="layanan" name="layanan">
-            <option>SNI 认证</option>
-            <option>进口许可证</option>
-            <option>TKDN（本地成分认证）</option>
-            <option>BPOM 上市许可</option>
-            <option>NPB（产品注册号）</option>
-            <option>RKP-RPL（环境管理计划）</option>
-            <option>其他服务</option>
+            <option value="sni">SNI 认证</option>
+            <option value="import-license">进口许可证</option>
+            <option value="tkdn">TKDN（本地成分认证）</option>
+            <option value="bpom">BPOM 上市许可</option>
+            <option value="npb">NPB（产品注册号）</option>
+            <option value="rkp-rpl">RKP-RPL（环境管理计划）</option>
+            <option value="lainnya">其他服务</option>
           </select>
         </div>
+        <div class="doc-checklist" id="docChecklist">
+          <h4>此类别通常所需的文件</h4>
+          <ul id="docChecklistList"></ul>
+        </div>
+
+        <div class="field">
+          <label for="dokumen">上传所需文件（可选）</label>
+          <label class="upload-drop" for="dokumen">
+            <span class="upload-ic">&#8593;</span>
+            <span class="upload-text">点击选择文件，或拖拽文件至此处</span>
+            <span class="upload-hint">PDF、JPG、PNG、DOCX — 每个文件最大5MB</span>
+          </label>
+          <input id="dokumen" name="dokumen" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" style="display:none;">
+          <div class="upload-filelist" id="uploadFileList"></div>
+        </div>
+
         <div class="field"><label for="pesan">需求详情</label><textarea id="pesan" name="pesan" placeholder="请简要描述您的产品/服务以及所需的许可类型"></textarea></div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">发送咨询请求</button>
-        <p style="font-size:12.5px; color:var(--gray-600);">点击此按钮将打开 WhatsApp，并根据以上信息自动填写消息内容。</p>
+        <p style="font-size:12.5px; color:var(--gray-600);">点击此按钮将打开 WhatsApp，并自动填写消息内容。如果您在上方选择了文件，请在 WhatsApp 聊天打开后手动附上相同的文件。</p>
       </form>
     </div>
   </section>

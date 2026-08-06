@@ -37,7 +37,7 @@
 <meta name="twitter:image" content="https://adsniconsultant.com/assets/og-image-en.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
@@ -108,18 +108,34 @@
         <div class="field">
           <label for="layanan">Service Needed</label>
           <select id="layanan" name="layanan">
-            <option>SNI Certificate</option>
-            <option>Import License</option>
-            <option>TKDN</option>
-            <option>BPOM Marketing Authorization</option>
-            <option>NPB</option>
-            <option>RKP-RPL</option>
-            <option>Other Services</option>
+            <option value="sni">SNI Certificate</option>
+            <option value="import-license">Import License</option>
+            <option value="tkdn">TKDN</option>
+            <option value="bpom">BPOM Marketing Authorization</option>
+            <option value="npb">NPB</option>
+            <option value="rkp-rpl">RKP-RPL</option>
+            <option value="lainnya">Other Services</option>
           </select>
         </div>
+        <div class="doc-checklist" id="docChecklist">
+          <h4>Documents generally needed for this category</h4>
+          <ul id="docChecklistList"></ul>
+        </div>
+
+        <div class="field">
+          <label for="dokumen">Upload Required Documents (optional)</label>
+          <label class="upload-drop" for="dokumen">
+            <span class="upload-ic">&#8593;</span>
+            <span class="upload-text">Click to select files, or drag &amp; drop here</span>
+            <span class="upload-hint">PDF, JPG, PNG, DOCX — max 5MB per file</span>
+          </label>
+          <input id="dokumen" name="dokumen" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" style="display:none;">
+          <div class="upload-filelist" id="uploadFileList"></div>
+        </div>
+
         <div class="field"><label for="pesan">Details of Your Needs</label><textarea id="pesan" name="pesan" placeholder="Briefly describe your product/service and the type of license needed"></textarea></div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Consultation Request</button>
-        <p style="font-size:12.5px; color:var(--gray-600);">This button will open WhatsApp with a pre-filled message based on the details above.</p>
+        <p style="font-size:12.5px; color:var(--gray-600);">This button will open WhatsApp with a pre-filled message. If you selected files above, please attach the same files manually once the WhatsApp chat opens.</p>
       </form>
     </div>
   </section>
